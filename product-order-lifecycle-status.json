@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "#LocationExtension",
+    "title": "LocationExtension",
+    "description": "DOME extensions for TMForum Location",
+    "allOf": [
+        {
+            "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/DOME/ShareableEntity.schema.json%22"
+        },
+        {
+            "type": "object",
+            "properties": {
+                "lifecycleStatus": {
+                    "type": "string",
+                    "description": "Lifecycle status of the location"
+                }
+            }
+        }
+    ]
+}
